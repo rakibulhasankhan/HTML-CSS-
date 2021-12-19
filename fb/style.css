@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f0f2f5;
+}
+.container {
+    display: flex;
+}
+.container .content-left {
+    width: 60%;
+    padding: 15% 100px 0 100px;
+}
+.container .content-left img {
+    width: 300px;
+}
+.container .content-left p {
+    font-size: 30px;
+    padding-left: 26px;
+}
+.container .content-right {
+    width: 40%;
+}
+.container .content-right form {
+    margin-top: 30%;
+    width: 400px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+.container .content-right form input[type="text"],
+.container .content-right form input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+.container .content-right form button {
+    background: #1877f2;
+    width: 100%;
+    padding: 15px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 15px;
+}
+.container .content-right form button:hover {
+    cursor: pointer;
+    background-color: #166fe5;
+}
+.container .content-right form .forgot {
+    color: #1877f2;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+.container .content-right form .forgot:hover {
+    text-decoration: underline;
+}
+.container .content-right form hr {
+    border: 0.5px solid rgba(0,0,0,0.1);
+}
+.container .content-right form .create {
+    background: #42b72a;
+    width: 100%;
+    padding: 15px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+    display: block;
+    width: 65%;
+    text-align: center;
+    margin: 15px auto;
+    text-decoration: none;
+}
+.container .content-right form .create:hover {
+    background: #36a420;
+}
+.container .content-right p {
+    font-size: 14px;
+    text-align: center;
+    width: 400px;
+    margin-top: 25px;
+}
+.container .content-right p a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+.container .content-right p a:hover {
+    text-decoration: underline;
+}
